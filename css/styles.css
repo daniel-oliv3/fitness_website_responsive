@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  transition: all 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #1d0e15;
+}
+html::-webkit-scrollbar-thumb {
+  background: #ff5421;
+}
+
+body {
+  background: #1d0e15;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+/*
+Caminho para o gitbash 
+cd C:/Users/Daniel_Oliveira/Documents/GitHub/fitness_website_responsive
+
+SASS
+sass --watch ./css/styles.scss:./css/styles.css
+
+
+*/
+
+/*# sourceMappingURL=styles.css.map */

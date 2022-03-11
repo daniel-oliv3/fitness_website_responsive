@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none !important;
+   transition: all .2s linear;
+}
+
+$orange:#ff5421;
+$white:#fff;
+$black:#000;
+$light-color:#ccc;
+$bg-color:#1d0e15;
+$border:.1rem solid rgba(255,255,255,.2);
+
+@mixin grid($val) {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+   gap:2rem;
+}
+
+@mixin title-text($titleText) {
+   font-size: $titleText;
+   text-transform: capitalize;
+   color:$white;
+}
+
+@mixin graph-text($graphText) {
+   font-size: $graphText;
+   line-height: 2;
+   color:$light-color;
+}
+
+html{
+   overflow-x: hidden;
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+   scroll-padding-top: 8rem;
+
+   &::-webkit-scrollbar{
+      width: 1rem;
+   }
+
+   &::-webkit-scrollbar-track{
+      background: $bg-color;
+   }
+
+   &::-webkit-scrollbar-thumb{
+      background: $orange;
+   }
+}
+
+body{
+   background: $bg-color;
+}
+
+section{
+   padding:3rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Caminho para o gitbash 
+cd C:/Users/Daniel_Oliveira/Documents/GitHub/fitness_website_responsive
+
+SASS
+sass --watch ./css/styles.scss:./css/styles.css
+
+
+*/
