@@ -63,10 +63,55 @@ section{
 
 
 
+/* ======= Header Section/Seção do cabeçalho ======= */
+.header{
+   z-index: 1000;
+   padding:3rem 1rem;
 
+   &.active{
+      background: $white;
+      padding:2rem 0;
 
+      .logo{
+         color:$black;
+      }
 
+      .nav a{
+         color:$black;
+      }
 
+      #menu-btn{
+         color:$black;
+      }
+   }
+
+   .logo{
+      font-size: 2.5rem;
+      color:$white;
+      font-weight: bolder;
+
+      span{
+         color:$orange;
+      }
+   }
+
+   .nav a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:$white;
+
+    &:hover{
+       color:$orange;
+    }
+ }
+
+ #menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:$white;
+ }
+}
 
 
 

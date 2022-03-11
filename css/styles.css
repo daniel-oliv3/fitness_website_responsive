@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap");
 * {
   font-family: "Nunito", sans-serif;
@@ -32,6 +33,47 @@ body {
 
 section {
   padding: 3rem 1rem;
+}
+
+/* ======= Header Section/Seção do cabeçalho ======= */
+.header {
+  z-index: 1000;
+  padding: 3rem 1rem;
+}
+.header.active {
+  background: #fff;
+  padding: 2rem 0;
+}
+.header.active .logo {
+  color: #000;
+}
+.header.active .nav a {
+  color: #000;
+}
+.header.active #menu-btn {
+  color: #000;
+}
+.header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.header .logo span {
+  color: #ff5421;
+}
+.header .nav a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #fff;
+}
+.header .nav a:hover {
+  color: #ff5421;
+}
+.header #menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
 }
 
 /*
