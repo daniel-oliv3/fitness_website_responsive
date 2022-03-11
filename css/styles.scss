@@ -39,6 +39,7 @@ html{
    font-size: 62.5%;
    scroll-behavior: smooth;
    scroll-padding-top: 8rem;
+   background: $bg-color; //color
 
    &::-webkit-scrollbar{
       width: 1rem;
@@ -139,7 +140,74 @@ section{
 
 
 
-
+/* ======= Responsiv/Responsividade =======*/
+@media (max-width:991px){
+    html{
+       font-size: 55%;
+    }
+    .home h3{
+       font-size: 3rem;
+    }
+ 
+    .pricing .box-container{
+       margin-top: 0;
+       margin-bottom: 0;
+ 
+       .box:nth-child(2){
+          transform: scale(1);
+       }
+    }
+ 
+    .join{
+       h3{
+          font-size: 2.5rem;
+       }
+    }
+ }
+ 
+ @media (max-width:768px){
+ 
+    .header{
+       padding:2rem;
+ 
+       &.active{
+          padding:2rem;
+       }
+ 
+       #menu-btn{
+          display: inline-block;
+ 
+          &.fa-times{
+             transform: rotate(180deg);
+          }
+       }
+       .nav{
+          position: absolute;
+          top:99%; left:0; right:0;
+          background: $white;
+          padding:1rem 0;
+          flex-flow: column;
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+ 
+          &.active{
+             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          }
+ 
+          a{
+             color:$black;
+             margin:1rem 2rem;
+          }
+       }
+    }
+ 
+ }
+ 
+ @media (max-width:450px){
+    html{
+       font-size: 50%;
+    }
+ }
+ 
 
 
 

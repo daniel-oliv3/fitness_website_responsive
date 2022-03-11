@@ -16,6 +16,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
+  background: #1d0e15;
 }
 html::-webkit-scrollbar {
   width: 1rem;
@@ -76,6 +77,64 @@ section {
   color: #fff;
 }
 
+/* ======= Responsiv/Responsividade =======*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .home h3 {
+    font-size: 3rem;
+  }
+
+  .pricing .box-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .pricing .box-container .box:nth-child(2) {
+    transform: scale(1);
+  }
+
+  .join h3 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+  .header.active {
+    padding: 2rem;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+  .header #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+  .header .nav {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 0;
+    flex-flow: column;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .nav a {
+    color: #000;
+    margin: 1rem 2rem;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
 /*
 Caminho para o gitbash 
 cd C:/Users/Daniel_Oliveira/Documents/GitHub/fitness_website_responsive
