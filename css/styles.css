@@ -126,6 +126,36 @@ section {
   padding-top: 1rem;
 }
 
+/* ======= About Section/Seção Sobre nós ======= */
+.about span {
+  font-size: 2.5rem;
+  color: #ff5421;
+}
+.about h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+.about p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ccc;
+}
+.about ul {
+  list-style: none;
+}
+.about ul li {
+  padding-top: 1.5rem;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.about ul li i {
+  padding-right: 1rem;
+  color: #ff5421;
+}
+
 /* ======= Responsiv/Responsividade =======*/
 @media (max-width: 991px) {
   html {

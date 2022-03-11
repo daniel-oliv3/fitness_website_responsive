@@ -166,6 +166,37 @@ section{
 
 
 
+/* ======= About Section/Seção Sobre nós ======= */
+ .about{
+
+    span{
+       font-size: 2.5rem;
+       color:$orange;
+    }
+ 
+    h3{
+       @include title-text(2.7rem);
+       padding: 1rem 0;
+    }
+ 
+    p{
+       @include graph-text(1.5rem);
+    }
+ 
+    ul{
+       list-style: none;
+ 
+       li{
+          padding-top: 1.5rem;
+          @include title-text(1.7rem);
+ 
+          i{
+             padding-right: 1rem;
+             color:$orange;
+          }
+       }
+    }
+ }
 
 
 
