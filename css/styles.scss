@@ -62,6 +62,36 @@ section{
    padding:3rem 1rem;
 }
 
+.link-btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:1rem 3rem;
+    background: $orange;
+    color:$white;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+ 
+    &:hover{
+       background: $white;
+       color:$orange;
+    }
+ }
+ 
+ .heading{
+    text-align: center;
+    margin-bottom: 3rem;
+ 
+    span{
+       font-size: 2.5rem;
+       color:$orange;
+    }
+ 
+    h3{
+       @include title-text(3.5rem);
+    }
+ }
 
 
 /* ======= Header Section/Seção do cabeçalho ======= */
@@ -115,8 +145,24 @@ section{
 }
 
 
-
-
+/* ======= Home Section/Seção de Inicio ======= */
+.home{
+    background: url(../images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5rem;
+ 
+    span{
+       font-size: 2.5rem;
+       color:$orange;
+    }
+ 
+    h3{
+       @include title-text(5rem);
+       padding-top: 1rem;
+    }
+ }
 
 
 

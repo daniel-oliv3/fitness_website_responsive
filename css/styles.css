@@ -36,6 +36,36 @@ section {
   padding: 3rem 1rem;
 }
 
+.link-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: #ff5421;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.link-btn:hover {
+  background: #fff;
+  color: #ff5421;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.heading span {
+  font-size: 2.5rem;
+  color: #ff5421;
+}
+.heading h3 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
 /* ======= Header Section/Seção do cabeçalho ======= */
 .header {
   z-index: 1000;
@@ -75,6 +105,25 @@ section {
   font-size: 2.5rem;
   cursor: pointer;
   color: #fff;
+}
+
+/* ======= Home Section/Seção de Inicio ======= */
+.home {
+  background: url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 5rem;
+}
+.home span {
+  font-size: 2.5rem;
+  color: #ff5421;
+}
+.home h3 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding-top: 1rem;
 }
 
 /* ======= Responsiv/Responsividade =======*/
