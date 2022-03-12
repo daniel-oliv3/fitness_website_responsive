@@ -39,7 +39,7 @@ html{
    font-size: 62.5%;
    scroll-behavior: smooth;
    scroll-padding-top: 8rem;
-   background: $bg-color; //color
+   //background: $bg-color; //color
 
    &::-webkit-scrollbar{
       width: 1rem;
@@ -279,8 +279,204 @@ section{
 
 
 
+/* ======= Pricing Section/Seção de Preços ======= */
+.pricing{
+
+   .box-container{
+      @include grid(29rem);
+      margin-top: 8rem;
+      margin-bottom: 5rem;
+
+      .box{
+         padding:2rem;
+         text-align: center;
+         border:$border;
+         background: $bg-color;
+         border-radius: .5rem;
+
+         &:nth-child(2){
+            transform: scale(1.2);
+         }
+
+         h3{
+            @include title-text(2rem);
+            padding-top: 1rem;
+         }
+
+         .price{
+            padding:1rem 0;
+            @include title-text(6rem);
+            font-weight: bolder;
+
+            span{
+               font-size: 2rem;
+               font-weight: normal;
+            }
+         }
+
+         .list{
+            padding-top: 2rem;
+            
+            p{
+               @include graph-text(1.7rem);
+
+               i{
+                  padding-right: .5rem;
+                  color:$orange;
+
+                  &.fa-times{
+                     color:$white;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
 
 
+/* ======= Join Section/Seção de Junte-se ======= */
+.join{
+
+   span{
+      font-size: 2.5rem;
+      color:$orange;
+   }
+
+   h3{
+      @include title-text(2.7rem);
+      padding-top: 1rem;
+   }
+
+   p{
+      padding:1rem 0;
+      @include graph-text(1.7rem);  
+   }
+}
+
+
+/* ======= Team Section/Seção de Time ======= */
+.team{
+
+   .box-container{
+      @include grid(30rem);
+
+      .box{
+         height: 50rem;
+         overflow: hidden;
+         position: relative;
+
+         &:hover{
+
+            .content{
+               left:-100%;
+            }
+            
+            .share{
+               left:0;
+            }
+         }
+
+         img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+         }
+
+         .content{
+            position: absolute;
+            bottom:0; left:0;
+            background: $white;
+            padding:1rem 2rem;
+
+            span{
+               font-size: 1.7rem;
+               color:$orange;
+            }
+
+            h3{
+               font-size: 2rem;
+               color:$black;
+            }
+         }
+
+         .share{
+            position: absolute;
+            bottom:0; left:-100%;
+            background: $white;
+            padding:1.5rem 1rem;
+
+            a{
+               font-size: 2rem;
+               color:$black;
+               margin:0 1rem;
+
+               &:hover{
+                  color:$orange;
+               }
+            }
+         }
+      }
+   }
+}
+
+
+/* ======= Blogs Section/Seção de Blogs ======= */
+.blogs{
+
+   .box-container{
+      @include grid(30rem);
+
+      .box{
+         border:$border;
+
+         &:hover .image img{
+            transform: scale(1.1);
+         }
+
+         .image{
+            height: 25rem;
+            overflow: hidden;
+
+            img{
+               height: 100%;
+               width: 100%;
+               object-fit: cover;
+            }
+         }
+
+         .content{
+            padding:2rem;
+
+            .link{
+               @include title-text(2.7rem);
+
+               &:hover{
+                  color:$orange;
+               }
+            }
+
+            .icons{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               padding-top: 2rem;
+               margin-top: 2rem;
+               border-top: $border;
+
+               span{
+                  @include title-text(1.5rem);
+
+                  i{
+                     color:$orange;
+                     padding-right: .5rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
 
 
 

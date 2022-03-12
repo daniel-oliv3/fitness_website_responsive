@@ -16,7 +16,6 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
-  background: #1d0e15;
 }
 html::-webkit-scrollbar {
   width: 1rem;
@@ -224,6 +223,178 @@ section {
   text-transform: capitalize;
   color: #fff;
   padding: 0.5rem 0;
+}
+
+/* ======= Pricing Section/Seção de Preços ======= */
+.pricing .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.pricing .box-container .box {
+  padding: 2rem;
+  text-align: center;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background: #1d0e15;
+  border-radius: 0.5rem;
+}
+.pricing .box-container .box:nth-child(2) {
+  transform: scale(1.2);
+}
+.pricing .box-container .box h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding-top: 1rem;
+}
+.pricing .box-container .box .price {
+  padding: 1rem 0;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bolder;
+}
+.pricing .box-container .box .price span {
+  font-size: 2rem;
+  font-weight: normal;
+}
+.pricing .box-container .box .list {
+  padding-top: 2rem;
+}
+.pricing .box-container .box .list p {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #ccc;
+}
+.pricing .box-container .box .list p i {
+  padding-right: 0.5rem;
+  color: #ff5421;
+}
+.pricing .box-container .box .list p i.fa-times {
+  color: #fff;
+}
+
+/* ======= Join Section/Seção de Junte-se ======= */
+.join span {
+  font-size: 2.5rem;
+  color: #ff5421;
+}
+.join h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding-top: 1rem;
+}
+.join p {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #ccc;
+}
+
+/* ======= Team Section/Seção de Time ======= */
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.team .box-container .box {
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.team .box-container .box:hover .content {
+  left: -100%;
+}
+.team .box-container .box:hover .share {
+  left: 0;
+}
+.team .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.team .box-container .box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  padding: 1rem 2rem;
+}
+.team .box-container .box .content span {
+  font-size: 1.7rem;
+  color: #ff5421;
+}
+.team .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #000;
+}
+.team .box-container .box .share {
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  background: #fff;
+  padding: 1.5rem 1rem;
+}
+.team .box-container .box .share a {
+  font-size: 2rem;
+  color: #000;
+  margin: 0 1rem;
+}
+.team .box-container .box .share a:hover {
+  color: #ff5421;
+}
+
+/* ======= Blogs Section/Seção de Blogs ======= */
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.blogs .box-container .box {
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+.blogs .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.blogs .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+.blogs .box-container .box .content .link {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.blogs .box-container .box .content .link:hover {
+  color: #ff5421;
+}
+.blogs .box-container .box .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+.blogs .box-container .box .content .icons span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.blogs .box-container .box .content .icons span i {
+  color: #ff5421;
+  padding-right: 0.5rem;
 }
 
 /* ======= Footer Section/Seção de Rodapé ======= */
