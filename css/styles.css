@@ -62,7 +62,7 @@ section {
 .heading h3 {
   font-size: 3.5rem;
   text-transform: capitalize;
-  color: #000; /**/
+  color: #fff;
 }
 
 /* ======= Header Section/Seção do cabeçalho ======= */
@@ -133,7 +133,7 @@ section {
 .about h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #000;
+  color: #fff;
   padding: 1rem 0;
 }
 .about p {
@@ -148,7 +148,7 @@ section {
   padding-top: 1.5rem;
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #000; /**/
+  color: #fff;
 }
 .about ul li i {
   padding-right: 1rem;
@@ -212,7 +212,7 @@ section {
 .courses .box-container .box .content .icons span {
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #000;  /**/
+  color: #fff;
 }
 .courses .box-container .box .content .icons span i {
   color: #ff5421;
@@ -221,7 +221,7 @@ section {
 .courses .box-container .box .content h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #000; /**/
+  color: #fff;
   padding: 0.5rem 0;
 }
 
@@ -374,7 +374,7 @@ section {
 .blogs .box-container .box .content .link {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #000; /**/
+  color: #fff;
 }
 .blogs .box-container .box .content .link:hover {
   color: #ff5421;
@@ -390,7 +390,7 @@ section {
 .blogs .box-container .box .content .icons span {
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: #000; /**/
+  color: #fff;
 }
 .blogs .box-container .box .content .icons span i {
   color: #ff5421;
@@ -513,14 +513,5 @@ section {
     font-size: 50%;
   }
 }
-/*
-Caminho para o gitbash 
-cd C:/Users/Daniel_Oliveira/Documents/GitHub/fitness_website_responsive
-
-SASS
-sass --watch ./css/styles.scss:./css/styles.css
-
-
-*/
 
 /*# sourceMappingURL=styles.css.map */
