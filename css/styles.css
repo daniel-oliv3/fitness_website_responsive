@@ -62,7 +62,7 @@ section {
 .heading h3 {
   font-size: 3.5rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 
 /* ======= Header Section/Seção do cabeçalho ======= */
@@ -133,7 +133,7 @@ section {
 .about h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
   padding: 1rem 0;
 }
 .about p {
@@ -212,7 +212,7 @@ section {
 .courses .box-container .box .content .icons span {
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 .courses .box-container .box .content .icons span i {
   color: #ff5421;
@@ -221,7 +221,7 @@ section {
 .courses .box-container .box .content h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
   padding: 0.5rem 0;
 }
 
@@ -284,7 +284,7 @@ section {
 .join h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
   padding-top: 1rem;
 }
 .join p {
@@ -374,7 +374,7 @@ section {
 .blogs .box-container .box .content .link {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 .blogs .box-container .box .content .link:hover {
   color: #ff5421;
@@ -390,7 +390,7 @@ section {
 .blogs .box-container .box .content .icons span {
   font-size: 1.5rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 .blogs .box-container .box .content .icons span i {
   color: #ff5421;
