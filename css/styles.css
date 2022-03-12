@@ -133,7 +133,7 @@ section {
 .about h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000;
   padding: 1rem 0;
 }
 .about p {
@@ -148,7 +148,7 @@ section {
   padding-top: 1.5rem;
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 .about ul li i {
   padding-right: 1rem;
@@ -212,7 +212,7 @@ section {
 .courses .box-container .box .content .icons span {
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000;  /**/
 }
 .courses .box-container .box .content .icons span i {
   color: #ff5421;
@@ -221,7 +221,7 @@ section {
 .courses .box-container .box .content h3 {
   font-size: 2.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
   padding: 0.5rem 0;
 }
 
