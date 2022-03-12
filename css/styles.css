@@ -156,6 +156,30 @@ section {
   color: #ff5421;
 }
 
+/* ======= Counter Section/Seção do Contador ======= */
+.counter {
+  background: url(../images/counter-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.counter .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.counter .box-container .box {
+  text-align: center;
+}
+.counter .box-container .box h3 {
+  font-size: 5rem;
+  color: #ff5421;
+}
+.counter .box-container .box p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
 /* ======= Responsiv/Responsividade =======*/
 @media (max-width: 991px) {
   html {
