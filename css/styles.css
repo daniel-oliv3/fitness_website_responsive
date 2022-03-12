@@ -148,7 +148,7 @@ section {
   padding-top: 1.5rem;
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #fff;
+  color: #000; /**/
 }
 .about ul li i {
   padding-right: 1rem;
