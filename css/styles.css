@@ -180,6 +180,52 @@ section {
   color: #fff;
 }
 
+/* ======= Courses Section/Seção de Cursos ======= */
+.courses .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.courses .box-container .box {
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+.courses .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.courses .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+.courses .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.courses .box-container .box .content {
+  padding: 2rem;
+}
+.courses .box-container .box .content .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.courses .box-container .box .content .icons span {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.courses .box-container .box .content .icons span i {
+  color: #ff5421;
+  padding-right: 0.5rem;
+}
+.courses .box-container .box .content h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
 /* ======= Responsiv/Responsividade =======*/
 @media (max-width: 991px) {
   html {
